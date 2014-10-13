@@ -3,12 +3,13 @@
 chrome.runtime.sendMessage("config", function(response) {
     "use strict";
     // taken from http://stackoverflow.com/questions/17264639/replace-text-but-keep-case
+    // only match first letter case
     function matchCase(text, pattern) {
         var result = '';
         for (var i = 0; i < text.length; i++) {
             var c = text.charAt(i);
             var p = pattern.charCodeAt(i);
-            if (p >= 65 && p < 65 + 26) {
+            if ((p >= 65 && p < 65 + 26)&&i==0) {
                 result += c.toUpperCase();
             } else {
                 result += c.toLowerCase();

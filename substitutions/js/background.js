@@ -1,38 +1,14 @@
 //Default replacements
 var default_replacements = [
-    ['keyboard', 'leopard'],
-    ['keyboards', 'leopards'],
-    ['force', 'horse'],
-    ['forces', 'horses'],
-    ['witness', 'this dude I know'],
-    ['witnesses', 'these dudes I know'],
-    ['allegedly', 'kinda probably'],
-    ['new study', 'tumblr post'],
-    ['rebuild', 'avenge'],
-    ['space', 'spaaaaaace'],
-    ['google glass', 'virtual boy'],
-    ['smartphone', 'pok\u00E9dex'],
-    ['senator', 'elf-lord'],
-    ['senators', 'elf-lords'],
-    ['electric', 'atomic'],
-    ['car', 'cat'],
-    ['cars', 'cats'],
-    ['election', 'eating contest'],
-    ['elections', 'eating contests'],
-    ['congressional leaders', 'river spirits'],
-    ['homeland security', 'homestar runner'],
-    ['could not be reached for comment', 'is guilty and everyone knows it'],
-    ['batman', 'a man dressed like a bat'],
+    ['sjw', 'skeleton'],
+    ['social justice warrior', 'skeleton'],
+    ['sjws', 'skeletons'],
+    ['social justice warriors', 'skeletons']
 ];
 //Default Blacklist
-var default_blacklisted_sites = ["docs.google.com",
-    "gmail.com",
-    "mail.google.com",
-    "mail.yahoo.com",
-    "outlook.com",
-]
+var default_blacklisted_sites = [];
 
-debug = false;
+debug = true;
 
 function checkBlackList(url, blacklist) {
     url = url.toLowerCase() || "";
