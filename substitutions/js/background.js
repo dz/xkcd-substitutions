@@ -1,9 +1,11 @@
 //Default replacements
 var default_replacements = [
-    ['sjw', 'skeleton'],
-    ['social justice warrior', 'skeleton'],
-    ['sjws', 'skeletons'],
-    ['social justice warriors', 'skeletons']
+  ['gamergate', 'the restless undead'],
+  ['#gamergate', 'the restless undead'],
+  ['sjw', 'skeleton'],
+  ['social justice warrior', 'skeleton'],
+  ['sjws', 'skeletons'],
+  ['social justice warriors', 'skeletons']
 ];
 //Default Blacklist
 var default_blacklisted_sites = [];
